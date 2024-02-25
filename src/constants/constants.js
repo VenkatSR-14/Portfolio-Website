@@ -3,7 +3,7 @@ export const projects = [
     title: 'AI powered News Research Tool',
     description: "Developed an end-to-end finance related question answering chatbot by researching current news trends using LanChain, LLM's and OpenAI API. Utilized Streamlit for real time interface with the chatbot.",
       image: '/images/AI_finance.png',
-      tags: ['LangChain', 'Large Language Models', 'Streamlit', 'OpenAI', 'ChatBot'],
+      tags: ['LangChain', `LLM's`, 'NLP', 'Streamlit', 'OpenAI', 'ChatBot'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
