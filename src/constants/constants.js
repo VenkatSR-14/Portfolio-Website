@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+    title: 'AI powered News Research Tool',
+    description: "Developed an end-to-end finance related question answering chatbot by researching current news trends using LanChain, LLM's and OpenAI API. Utilized Streamlit for real time interface with the chatbot.",
+      image: '/images/AI_finance.png',
+      tags: ['LangChain', 'Large Language Models', 'Streamlit', 'OpenAI', 'ChatBot'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
