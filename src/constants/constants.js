@@ -1,46 +1,49 @@
 export const projects = [
+
   {
-    title: 'AI powered News Research Tool',
-    description: "Developed an end-to-end finance related question answering chatbot by researching current news trends using LanChain, LLM's and OpenAI API. Utilized Streamlit for real time interface with the chatbot.",
-      image: '/images/AI_finance.png',
-      tags: ['LangChain', `LLM's`, 'NLP', 'Streamlit', 'OpenAI', 'ChatBot'],
+    title: 'Text Summarization Using Transformer Models',
+    description: "Developed a Text Summarization tool using HuggingFace API's, Pretrained transformers. Utilized Word2Vec for text to embeddings conversion. Created ML Piplines using DVC and Deployed the application on AWS.",
+      image: '/images/text_summarizer.png',
+      tags: ['HuggingFace', 'Transformers', 'DVC', 'AWS', 'Word2Vec'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
+    title: 'AI based Kidney Disease classifer',
+    description:"Developed an end-to-end VGG-16 based kidney disease classifier using Tensorflow, Keras. Used MLFlow for experiments tracking and model registration. Deployed the application using DVC, Docker and CI/CD pipelines on AWS and Azure.",
+    image: '/images/kidney_disease.png',
+    tags: ['VGG-16', 'Tensorflow', 'Keras', 'MLFlow', 'CI/CD', 'DVC'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    title: 'Reddit Data Pipeline using Airflow',
+    description: "Developed a Reddit data pipeline using Airflow, Postgres, AWS Athena, Redshift for ETL process and visualizated the data using Tableau.",
+    image: '/images/reddit.png',
+    tags: ['ETL', 'Airflow', 'Postgres','AWS', 'Tableau'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 3,
   },
+  {
+    title: 'Autonomous Project Solutions Chatbot',
+    description: "Developed an HR Chatbot tool using LangChain, OpenAI API and Streamlit for providing innovative HR solutions. Utilized Pinecone as the Vector DB for word embedding storage. ",
+      image: '/images/hrchatbot.jpeg',
+      tags: ['LangChain', `LLM's`, 'NLP', 'VectorDB', 'Streamlit'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 2,
+  },
+
+
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Started my journey with Computer Science', },
+  { year: 2020, text: 'Worked as a Software Engineer at Airbus', },
+  { year: 2022, text: 'Decided to pursue my MS in Data Science', },
+  { year: 2023, text: 'Majored in Machine Learning and AI', },
+  { year: 2024, text: 'Working as a software Engineer at Fidelity'}
 ];
