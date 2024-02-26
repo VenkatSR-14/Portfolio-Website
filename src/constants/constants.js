@@ -36,6 +36,33 @@ export const projects = [
     visit: 'https://google.com',
     id: 2,
   },
+  {
+    title: 'End-to-End Uber Eats Clone',
+    description: "Developed an Uber Eats clone app using ReactJs, NextJs, Node.Js with Express Js incorporating microservices architecture. Utilized Kafka for distributed streaming and MongoDB, MySQL as the database. Deployed the application using Docker and AWS.",
+      image: '/images/uber-eats.jpg',
+      tags: ['ReactJS', `NextJs`, 'NodeJS', 'MongoDB', 'AWS', 'Docker'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 2,
+  },
+  {
+    title: 'Zillow Data ETL pipeline',
+    description: "Developed an ETL pipleine for Zillow Data using Python, Airflow, AWS S3, Redshift, Lambda functionalities. Utilized QuickSight for analysis of the data.",
+      image: '/images/zillow.jpeg',
+      tags: ['Python', `Airflow`, 'AWS', 'Quicksight'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 2,
+  },
+  {
+    title: 'Blockchain-Based Decentralized File Sharing dApp',
+    description: "Developed a full-stack decentralized file sharing dApp sing Solidity, ReactJS, Ether.js and Ethereum blockchain technologies.",
+      image: '/images/blockchain.jpg',
+      tags: ['Solidity', `ReactJs`, 'Ether.js', 'Ethereum'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 2,
+  },
 
 
 ];
