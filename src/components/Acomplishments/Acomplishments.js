@@ -7,7 +7,8 @@ const data = [
   { number: 'Kaggle Competition', text: 'Secured 3rd Place.'},
   { number: 'Patent', text: 'Injury detection patent.(202241054225)', },
   { number: 'Spot Award', text: 'Award @Airbus', },
-  { number: 'Silver Medalist', text: 'Badminton(Interzonals)', }
+  { number: 'Silver Medalist', text: 'Badminton(Interzonals)', },
+  { number: 'Author', text: "Fidelity's Web Capturing Pillar", }
 ];
 
 const Acomplishments = () => (

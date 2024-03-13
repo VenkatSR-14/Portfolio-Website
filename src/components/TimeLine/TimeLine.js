@@ -48,7 +48,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I am a student pursuing Master's in Data Science at Northeastern University's Khoury College of Computer sciences. I come with a background in both AI/ML and Software Engineering. I am very passionate when it comes to problem solving and Optimization.
-        Apart from my education and professional life, I am a professional badminton play who has represented my state in various competitions.
+        Apart from my education and professional life, I am a professional badminton player who has represented my state in various competitions.
       </SectionText>
         <CarouselContainer ref = {carouselRef} onScroll ={handleScroll}>
           <>
