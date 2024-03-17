@@ -50,8 +50,8 @@ export const projects = [
     description: "Developed an ETL pipleine for Zillow Data using Python, Airflow, AWS S3, Redshift, Lambda functionalities. Utilized QuickSight for analysis of the data.",
       image: '/images/zillow.jpeg',
       tags: ['Python', `Airflow`, 'AWS', 'Quicksight'],
-    source: '#',
-    visit: '#',
+    source: 'https://github.com/VenkatSR-14/SDE-Projects',
+    visit: 'https://github.com/VenkatSR-14/SDE-Projects/tree/main/data_engineering_project_zillowrapidapi__dataanalytics-main',
     id: 2,
   },
   {
@@ -59,8 +59,8 @@ export const projects = [
     description: "Developed a full-stack decentralized file sharing dApp sing Solidity, ReactJS, Ether.js and Ethereum blockchain technologies.",
       image: '/images/blockchain.jpg',
       tags: ['Solidity', `ReactJs`, 'Ether.js', 'Ethereum'],
-    source: '#',
-    visit: '#',
+    source: 'https://github.com/VenkatSR-14/SDE-Projects',
+    visit: 'https://github.com/VenkatSR-14/SDE-Projects/tree/main/SpringMicroservicesProject',
     id: 2,
   },
 
